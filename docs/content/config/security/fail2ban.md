@@ -4,7 +4,7 @@ hide:
   - toc # Hide Table of Contents for this page
 ---
 
-Fail2Ban is installed automatically and bans IP addresses for 1 week after 2 failed attempts in a time frame of 1 week by default.
+Fail2Ban is installed automatically and bans IP addresses for 1 week after 10 failed attempts in a time frame of 1 week by default. The Postfix jail is configured to use `mode = extra` in DMS by default.
 
 ## Configuration files
 
